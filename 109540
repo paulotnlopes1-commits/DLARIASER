@@ -1,0 +1,482 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+
+designed using localmaze gui creator
+]=]
+
+-- Instances: 27 | Scripts: 0 | Modules: 0 | Tags: 0
+local LMG2L = {};
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui
+LMG2L["ScreenGui_1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+LMG2L["ScreenGui_1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis
+LMG2L["pis_2"] = Instance.new("Frame", LMG2L["ScreenGui_1"]);
+LMG2L["pis_2"]["BorderSizePixel"] = 3;
+LMG2L["pis_2"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["pis_2"]["Size"] = UDim2.new(0, 450, 0, 54);
+LMG2L["pis_2"]["Position"] = UDim2.new(0, 912, 0, 54);
+LMG2L["pis_2"]["BorderColor3"] = Color3.fromRGB(127, 0, 219);
+LMG2L["pis_2"]["Name"] = [[pis]];
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis.bexe
+LMG2L["bexe_3"] = Instance.new("TextButton", LMG2L["pis_2"]);
+LMG2L["bexe_3"]["BorderSizePixel"] = 3;
+LMG2L["bexe_3"]["TextSize"] = 12;
+LMG2L["bexe_3"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["bexe_3"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["bexe_3"]["Size"] = UDim2.new(0, 76, 0, 28);
+LMG2L["bexe_3"]["BorderColor3"] = Color3.fromRGB(127, 0, 219);
+LMG2L["bexe_3"]["Text"] = [[Executor]];
+LMG2L["bexe_3"]["Name"] = [[bexe]];
+LMG2L["bexe_3"]["Position"] = UDim2.new(0, 296, 0, 24);
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis.serlo
+LMG2L["serlo_4"] = Instance.new("TextButton", LMG2L["pis_2"]);
+LMG2L["serlo_4"]["BorderSizePixel"] = 3;
+LMG2L["serlo_4"]["TextSize"] = 11;
+LMG2L["serlo_4"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["serlo_4"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["serlo_4"]["Size"] = UDim2.new(0, 104, 0, 28);
+LMG2L["serlo_4"]["BorderColor3"] = Color3.fromRGB(127, 0, 219);
+LMG2L["serlo_4"]["Text"] = [[Server\Local]];
+LMG2L["serlo_4"]["Name"] = [[serlo]];
+LMG2L["serlo_4"]["Position"] = UDim2.new(0, 110, 0, 24);
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis.?
+LMG2L["?_5"] = Instance.new("TextButton", LMG2L["pis_2"]);
+LMG2L["?_5"]["BorderSizePixel"] = 3;
+LMG2L["?_5"]["TextSize"] = 12;
+LMG2L["?_5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["?_5"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["?_5"]["Size"] = UDim2.new(0, 74, 0, 28);
+LMG2L["?_5"]["BorderColor3"] = Color3.fromRGB(127, 0, 219);
+LMG2L["?_5"]["Text"] = [[?]];
+LMG2L["?_5"]["Name"] = [[?]];
+LMG2L["?_5"]["Position"] = UDim2.new(0, 376, 0, 24);
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis.Script
+LMG2L["Script_6"] = Instance.new("TextButton", LMG2L["pis_2"]);
+LMG2L["Script_6"]["BorderSizePixel"] = 3;
+LMG2L["Script_6"]["TextSize"] = 12;
+LMG2L["Script_6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["Script_6"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["Script_6"]["Size"] = UDim2.new(0, 74, 0, 28);
+LMG2L["Script_6"]["BorderColor3"] = Color3.fromRGB(127, 0, 219);
+LMG2L["Script_6"]["Text"] = [[Script]];
+LMG2L["Script_6"]["Name"] = [[Script]];
+LMG2L["Script_6"]["Position"] = UDim2.new(0, 218, 0, 24);
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis.titulo
+LMG2L["titulo_7"] = Instance.new("TextLabel", LMG2L["pis_2"]);
+LMG2L["titulo_7"]["TextWrapped"] = true;
+LMG2L["titulo_7"]["BorderSizePixel"] = 0;
+LMG2L["titulo_7"]["TextScaled"] = true;
+LMG2L["titulo_7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["titulo_7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["titulo_7"]["BackgroundTransparency"] = 1;
+LMG2L["titulo_7"]["Size"] = UDim2.new(0, 84, 0, 16);
+LMG2L["titulo_7"]["Text"] = [[DLARIASER]];
+LMG2L["titulo_7"]["Name"] = [[titulo]];
+LMG2L["titulo_7"]["Position"] = UDim2.new(0, 8, 0, 2);
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis.Home
+LMG2L["Home_8"] = Instance.new("TextButton", LMG2L["pis_2"]);
+LMG2L["Home_8"]["BorderSizePixel"] = 3;
+LMG2L["Home_8"]["TextSize"] = 12;
+LMG2L["Home_8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["Home_8"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["Home_8"]["Size"] = UDim2.new(0, 104, 0, 28);
+LMG2L["Home_8"]["BorderColor3"] = Color3.fromRGB(127, 0, 219);
+LMG2L["Home_8"]["Text"] = [[ Home ]];
+LMG2L["Home_8"]["Name"] = [[Home]];
+LMG2L["Home_8"]["Position"] = UDim2.new(0, 2, 0, 24);
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis.Homeg
+LMG2L["Homeg_9"] = Instance.new("Frame", LMG2L["pis_2"]);
+LMG2L["Homeg_9"]["BorderSizePixel"] = 3;
+LMG2L["Homeg_9"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["Homeg_9"]["Size"] = UDim2.new(0, 450, 0, 294);
+LMG2L["Homeg_9"]["Position"] = UDim2.new(0, 0, 0, 56);
+LMG2L["Homeg_9"]["BorderColor3"] = Color3.fromRGB(127, 0, 219);
+LMG2L["Homeg_9"]["Name"] = [[Homeg]];
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis.Homeg.perfilownerplayer
+LMG2L["perfilownerplayer_a"] = Instance.new("ImageLabel", LMG2L["Homeg_9"]);
+LMG2L["perfilownerplayer_a"]["BorderSizePixel"] = 0;
+LMG2L["perfilownerplayer_a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+-- LMG2L["perfilownerplayer_a"]["ImageContent"] = ;
+LMG2L["perfilownerplayer_a"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
+LMG2L["perfilownerplayer_a"]["Size"] = UDim2.new(0, 108, 0, 100);
+LMG2L["perfilownerplayer_a"]["Name"] = [[perfilownerplayer]];
+LMG2L["perfilownerplayer_a"]["Position"] = UDim2.new(0, 8, 0, 10);
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis.Homeg.15
+LMG2L["15_b"] = Instance.new("TextLabel", LMG2L["Homeg_9"]);
+LMG2L["15_b"]["BorderSizePixel"] = 0;
+LMG2L["15_b"]["TextSize"] = 10;
+LMG2L["15_b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["15_b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["15_b"]["BackgroundTransparency"] = 1;
+LMG2L["15_b"]["Size"] = UDim2.new(0, 124, 0, 30);
+LMG2L["15_b"]["Text"] = [[place name : name]];
+LMG2L["15_b"]["Name"] = [[15]];
+LMG2L["15_b"]["Position"] = UDim2.new(0, 120, 0, 76);
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis.Homeg.14
+LMG2L["14_c"] = Instance.new("TextLabel", LMG2L["Homeg_9"]);
+LMG2L["14_c"]["BorderSizePixel"] = 0;
+LMG2L["14_c"]["TextSize"] = 10;
+LMG2L["14_c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["14_c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["14_c"]["BackgroundTransparency"] = 1;
+LMG2L["14_c"]["Size"] = UDim2.new(0, 124, 0, 30);
+LMG2L["14_c"]["Text"] = [[id place : id]];
+LMG2L["14_c"]["Name"] = [[14]];
+LMG2L["14_c"]["Position"] = UDim2.new(0, 92, 0, 58);
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis.Homeg.13
+LMG2L["13_d"] = Instance.new("TextLabel", LMG2L["Homeg_9"]);
+LMG2L["13_d"]["BorderSizePixel"] = 0;
+LMG2L["13_d"]["TextSize"] = 10;
+LMG2L["13_d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["13_d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["13_d"]["BackgroundTransparency"] = 1;
+LMG2L["13_d"]["Size"] = UDim2.new(0, 124, 0, 30);
+LMG2L["13_d"]["Text"] = [[time : time in life]];
+LMG2L["13_d"]["Name"] = [[13]];
+LMG2L["13_d"]["Position"] = UDim2.new(0, 110, 0, 40);
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis.Homeg.12
+LMG2L["12_e"] = Instance.new("TextLabel", LMG2L["Homeg_9"]);
+LMG2L["12_e"]["BorderSizePixel"] = 0;
+LMG2L["12_e"]["TextSize"] = 10;
+LMG2L["12_e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["12_e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["12_e"]["BackgroundTransparency"] = 1;
+LMG2L["12_e"]["Size"] = UDim2.new(0, 124, 0, 30);
+LMG2L["12_e"]["Text"] = [[User : owner player]];
+LMG2L["12_e"]["Name"] = [[12]];
+LMG2L["12_e"]["Position"] = UDim2.new(0, 120, 0, 20);
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis.guiserverlo
+LMG2L["guiserverlo_f"] = Instance.new("Frame", LMG2L["pis_2"]);
+LMG2L["guiserverlo_f"]["BorderSizePixel"] = 3;
+LMG2L["guiserverlo_f"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["guiserverlo_f"]["Size"] = UDim2.new(0, 450, 0, 294);
+LMG2L["guiserverlo_f"]["Position"] = UDim2.new(0, 0, 0, 56);
+LMG2L["guiserverlo_f"]["BorderColor3"] = Color3.fromRGB(127, 0, 219);
+LMG2L["guiserverlo_f"]["Name"] = [[guiserverlo]];
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis.guiserverlo.bexe
+LMG2L["bexe_10"] = Instance.new("TextButton", LMG2L["guiserverlo_f"]);
+LMG2L["bexe_10"]["BorderSizePixel"] = 3;
+LMG2L["bexe_10"]["TextSize"] = 12;
+LMG2L["bexe_10"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["bexe_10"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["bexe_10"]["Size"] = UDim2.new(0, 76, 0, 28);
+LMG2L["bexe_10"]["BorderColor3"] = Color3.fromRGB(127, 0, 219);
+LMG2L["bexe_10"]["Text"] = [[?]];
+LMG2L["bexe_10"]["Name"] = [[bexe]];
+LMG2L["bexe_10"]["Position"] = UDim2.new(0, 12, 0, 10);
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis.guiserverlo.>
+LMG2L[">_11"] = Instance.new("TextButton", LMG2L["guiserverlo_f"]);
+LMG2L[">_11"]["BorderSizePixel"] = 3;
+LMG2L[">_11"]["TextSize"] = 12;
+LMG2L[">_11"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L[">_11"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L[">_11"]["Size"] = UDim2.new(0, 52, 0, 16);
+LMG2L[">_11"]["BorderColor3"] = Color3.fromRGB(127, 0, 219);
+LMG2L[">_11"]["Text"] = [[>]];
+LMG2L[">_11"]["Name"] = [[>]];
+LMG2L[">_11"]["Position"] = UDim2.new(0, 196, 0, 270);
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis.guiserverlo.?
+LMG2L["?_12"] = Instance.new("TextButton", LMG2L["guiserverlo_f"]);
+LMG2L["?_12"]["BorderSizePixel"] = 3;
+LMG2L["?_12"]["TextSize"] = 12;
+LMG2L["?_12"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["?_12"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["?_12"]["Size"] = UDim2.new(0, 76, 0, 28);
+LMG2L["?_12"]["BorderColor3"] = Color3.fromRGB(127, 0, 219);
+LMG2L["?_12"]["Text"] = [[?]];
+LMG2L["?_12"]["Name"] = [[?]];
+LMG2L["?_12"]["Position"] = UDim2.new(0, 356, 0, 234);
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis.Execu
+LMG2L["Execu_13"] = Instance.new("Frame", LMG2L["pis_2"]);
+LMG2L["Execu_13"]["BorderSizePixel"] = 3;
+LMG2L["Execu_13"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["Execu_13"]["Size"] = UDim2.new(0, 448, 0, 294);
+LMG2L["Execu_13"]["Position"] = UDim2.new(0, 2, 0, 56);
+LMG2L["Execu_13"]["BorderColor3"] = Color3.fromRGB(127, 0, 219);
+LMG2L["Execu_13"]["Name"] = [[Execu]];
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis.Execu.script
+LMG2L["script_14"] = Instance.new("TextBox", LMG2L["Execu_13"]);
+LMG2L["script_14"]["Name"] = [[script]];
+LMG2L["script_14"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+LMG2L["script_14"]["BorderSizePixel"] = 3;
+LMG2L["script_14"]["TextSize"] = 9;
+LMG2L["script_14"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["script_14"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+LMG2L["script_14"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["script_14"]["Size"] = UDim2.new(0, 280, 0, 266);
+LMG2L["script_14"]["Position"] = UDim2.new(0, 12, 0, 12);
+LMG2L["script_14"]["BorderColor3"] = Color3.fromRGB(127, 0, 219);
+LMG2L["script_14"]["Text"] = [[--[   Made R3DLARIASERR  ]--]];
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis.Execu.exe
+LMG2L["exe_15"] = Instance.new("TextButton", LMG2L["Execu_13"]);
+LMG2L["exe_15"]["TextWrapped"] = true;
+LMG2L["exe_15"]["BorderSizePixel"] = 3;
+LMG2L["exe_15"]["TextSize"] = 12;
+LMG2L["exe_15"]["TextScaled"] = true;
+LMG2L["exe_15"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["exe_15"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["exe_15"]["Size"] = UDim2.new(0, 140, 0, 102);
+LMG2L["exe_15"]["BorderColor3"] = Color3.fromRGB(127, 0, 219);
+LMG2L["exe_15"]["Text"] = [[Exe]];
+LMG2L["exe_15"]["Name"] = [[exe]];
+LMG2L["exe_15"]["Position"] = UDim2.new(0, 302, 0, 12);
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis.Execu.cle
+LMG2L["cle_16"] = Instance.new("TextButton", LMG2L["Execu_13"]);
+LMG2L["cle_16"]["TextWrapped"] = true;
+LMG2L["cle_16"]["BorderSizePixel"] = 3;
+LMG2L["cle_16"]["TextSize"] = 12;
+LMG2L["cle_16"]["TextScaled"] = true;
+LMG2L["cle_16"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["cle_16"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["cle_16"]["Size"] = UDim2.new(0, 140, 0, 102);
+LMG2L["cle_16"]["BorderColor3"] = Color3.fromRGB(127, 0, 219);
+LMG2L["cle_16"]["Text"] = [[Clear ]];
+LMG2L["cle_16"]["Name"] = [[cle]];
+LMG2L["cle_16"]["Position"] = UDim2.new(0, 302, 0, 178);
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis.guiscript
+LMG2L["guiscript_17"] = Instance.new("Frame", LMG2L["pis_2"]);
+LMG2L["guiscript_17"]["BorderSizePixel"] = 3;
+LMG2L["guiscript_17"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["guiscript_17"]["Size"] = UDim2.new(0, 450, 0, 294);
+LMG2L["guiscript_17"]["Position"] = UDim2.new(0, 0, 0, 56);
+LMG2L["guiscript_17"]["BorderColor3"] = Color3.fromRGB(127, 0, 219);
+LMG2L["guiscript_17"]["Name"] = [[guiscript]];
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis.guiscript.bexe
+LMG2L["bexe_18"] = Instance.new("TextButton", LMG2L["guiscript_17"]);
+LMG2L["bexe_18"]["BorderSizePixel"] = 3;
+LMG2L["bexe_18"]["TextSize"] = 12;
+LMG2L["bexe_18"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["bexe_18"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["bexe_18"]["Size"] = UDim2.new(0, 76, 0, 28);
+LMG2L["bexe_18"]["BorderColor3"] = Color3.fromRGB(127, 0, 219);
+LMG2L["bexe_18"]["Text"] = [[?]];
+LMG2L["bexe_18"]["Name"] = [[bexe]];
+LMG2L["bexe_18"]["Position"] = UDim2.new(0, 12, 0, 10);
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis.guiscript.>
+LMG2L[">_19"] = Instance.new("TextButton", LMG2L["guiscript_17"]);
+LMG2L[">_19"]["BorderSizePixel"] = 3;
+LMG2L[">_19"]["TextSize"] = 12;
+LMG2L[">_19"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L[">_19"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L[">_19"]["Size"] = UDim2.new(0, 52, 0, 16);
+LMG2L[">_19"]["BorderColor3"] = Color3.fromRGB(127, 0, 219);
+LMG2L[">_19"]["Text"] = [[>]];
+LMG2L[">_19"]["Name"] = [[>]];
+LMG2L[">_19"]["Position"] = UDim2.new(0, 196, 0, 270);
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis.guiscript.?
+LMG2L["?_1a"] = Instance.new("TextButton", LMG2L["guiscript_17"]);
+LMG2L["?_1a"]["BorderSizePixel"] = 3;
+LMG2L["?_1a"]["TextSize"] = 12;
+LMG2L["?_1a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["?_1a"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["?_1a"]["Size"] = UDim2.new(0, 76, 0, 28);
+LMG2L["?_1a"]["BorderColor3"] = Color3.fromRGB(127, 0, 219);
+LMG2L["?_1a"]["Text"] = [[?]];
+LMG2L["?_1a"]["Name"] = [[?]];
+LMG2L["?_1a"]["Position"] = UDim2.new(0, 356, 0, 234);
+
+
+-- Players.senpai_brasileiro1.PlayerGui.ScreenGui.pis.deta
+LMG2L["deta_1b"] = Instance.new("Frame", LMG2L["pis_2"]);
+LMG2L["deta_1b"]["BorderSizePixel"] = 2;
+LMG2L["deta_1b"]["BackgroundColor3"] = Color3.fromRGB(132, 132, 132);
+LMG2L["deta_1b"]["Size"] = UDim2.new(0, 470, 0, 358);
+LMG2L["deta_1b"]["Position"] = UDim2.new(0, -12, 0, -4);
+LMG2L["deta_1b"]["BorderColor3"] = Color3.fromRGB(183, 183, 183);
+LMG2L["deta_1b"]["Name"] = [[deta]];
+LMG2L["deta_1b"]["BackgroundTransparency"] = 0.9;
+
+
+-- =============================================================================
+-- INJEÇÃO DE FUNCIONALIDADES (ABOLUTAMENTE NENHUMA LINHA ACIMA FOI REMOVIDA)
+-- =============================================================================
+
+task.spawn(function()
+	local Players = game:GetService("Players")
+	local MarketplaceService = game:GetService("MarketplaceService")
+	local UserInputService = game:GetService("UserInputService")
+	local LocalPlayer = Players.LocalPlayer
+
+	-- Referências das janelas principais das abas
+	local MainFrame = LMG2L["pis_2"]
+	local TabHome = LMG2L["Homeg_9"]
+	local TabServerlo = LMG2L["guiserverlo_f"]
+	local TabScript = LMG2L["guiscript_17"]
+	local TabExecu = LMG2L["Execu_13"]
+
+	-- Referências dos botões de controle de abas superiores
+	local BtnHome = LMG2L["Home_8"]
+	local BtnServerlo = LMG2L["serlo_4"]
+	local BtnScript = LMG2L["Script_6"]
+	local BtnBexe = LMG2L["bexe_3"]
+
+	-- Função interna para alternar as telas visíveis das abas
+	local function alternarAbas(abaAtiva)
+		TabHome.Visible = false
+		TabServerlo.Visible = false
+		TabScript.Visible = false
+		TabExecu.Visible = false
+		abaAtiva.Visible = true
+	end
+
+	-- Inicializa o painel exibindo por padrão a aba Home
+	alternarAbas(TabHome)
+
+	-- Conexão de eventos de clique nos botões para a troca de telas
+	BtnHome.MouseButton1Click:Connect(function() alternarAbas(TabHome) end)
+	BtnServerlo.MouseButton1Click:Connect(function() alternarAbas(TabServerlo) end)
+	BtnScript.MouseButton1Click:Connect(function() alternarAbas(TabScript) end)
+	BtnBexe.MouseButton1Click:Connect(function() alternarAbas(TabExecu) end)
+
+	-- SISTEMA DA ABA HOME (DADOS EM TEMPO REAL)
+	local ImgPerfil = LMG2L["perfilownerplayer_a"]
+	local LblUser = LMG2L["12_e"]
+	local LblTime = LMG2L["13_d"]
+	local LblId = LMG2L["14_c"]
+	local LblPlace = LMG2L["15_b"]
+
+	-- Torna o fundo do frame da imagem invisível e carrega a Headshot oficial do jogador
+	ImgPerfil.BackgroundTransparency = 1
+	ImgPerfil.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=" .. LocalPlayer.UserId .. "&width=420&height=420&format=png"
+
+	-- Aplica o nome de usuário e o ID do Place correspondente
+	LblUser.Text = "User: " .. LocalPlayer.Name
+	LblId.Text = "Place ID: " .. tostring(game.PlaceId)
+
+	-- Busca segura das informações do produto para obter o nome real do mapa
+	local success, gameData = pcall(function()
+		return MarketplaceService:GetProductInfo(game.PlaceId)
+	end)
+	if success and gameData then
+		LblPlace.Text = "Place name: " .. tostring(gameData.Name)
+	else
+		LblPlace.Text = "Place name: " .. tostring(game.Name)
+	end
+
+	-- Thread de atualização do relógio local (formato HH:MM:SS) a cada 1 segundo
+	task.spawn(function()
+		while task.wait(1) do
+			if LblTime then
+				LblTime.Text = "Time: " .. os.date("%H:%M:%S")
+			end
+		end
+	end)
+
+	-- SISTEMA DE OPERAÇÕES DO EXECUTOR
+	local CodeBox = LMG2L["script_14"]
+	local ExeBtn = LMG2L["exe_15"]
+	local ClearBtn = LMG2L["cle_16"]
+
+	-- Evento do botão Clear: redefine o texto da TextBox para vazio
+	ClearBtn.MouseButton1Click:Connect(function()
+		CodeBox.Text = ""
+	end)
+
+	-- Evento do botão Exe: compilação e execução dinâmica de código (suporte a exploits)
+	ExeBtn.MouseButton1Click:Connect(function()
+		local scriptSource = CodeBox.Text
+		if scriptSource and scriptSource ~= "" then
+			local closure, syntaxError = loadstring(scriptSource)
+			if closure then
+				task.spawn(closure)
+			else
+				warn("[Erro do Executor]: " .. tostring(syntaxError))
+			end
+		end
+	end)
+
+	-- MECANISMO DE ARRASTAR A GUI PRINCIPAL (DRAGGABLE)
+	local isDragging = false
+	local currentDragInput, initialTouchPos, initialFramePos
+
+	MainFrame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			isDragging = true
+			initialTouchPos = input.Position
+			initialFramePos = MainFrame.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					isDragging = false
+				end
+			end)
+		end
+	end)
+
+	MainFrame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			currentDragInput = input
+		end
+	end)
+
+	UserInputService.InputChanged:Connect(function(input)
+		if input == currentDragInput and isDragging then
+			local offset = input.Position - initialTouchPos
+			MainFrame.Position = UDim2.new(
+				initialFramePos.X.Scale, 
+				initialFramePos.X.Offset + offset.X, 
+				initialFramePos.Y.Scale, 
+				initialFramePos.Y.Offset + offset.Y
+			)
+		end
+	end)
+end)
+
+
+return LMG2L["ScreenGui_1"], require;
